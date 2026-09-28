@@ -59,6 +59,11 @@ class _PoliUpdateFormState extends State<PoliUpdateForm> {
           MaterialPageRoute(builder: (context) => PoliDetail(poli: poli)),
         );
       },
+      style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
+      ),
       child: const Text("Simpan Perubahan"),
     );
   }
