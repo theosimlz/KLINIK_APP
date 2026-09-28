@@ -1,6 +1,6 @@
 #  Aplikasi Klinik - Mobile Programming (Flutter)
 
-Aplikasi mobile berbasis Flutter untuk pengelolaan data poli (CRUD Data Poli) di klinik/rumah sakit. Projek ini disusun berdasarkan materi praktikum **Modul Mobile Programming (Pertemuan 2 – 5)**.
+Aplikasi mobile berbasis Flutter untuk pengelolaan data poli (CRUD Data Poli) di klinik/rumah sakit. Projek ini disusun berdasarkan materi praktikum
 
 ---
 
