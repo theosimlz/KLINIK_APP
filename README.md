@@ -1,17 +1,22 @@
-Aplikasi Klinik - Mobile Programming (Flutter)
+# 🏥 Aplikasi Klinik - Mobile Programming (Flutter)
 
-Aplikasi mobile berbasis Flutter untuk pengelolaan data poli (CRUD Data Poli) di klinik/rumah sakit. Projek ini disusun berdasarkan materi praktikum Modul Mobile Programming (Pertemuan 2 – 5).
+Aplikasi mobile berbasis Flutter untuk pengelolaan data poli (CRUD Data Poli) di klinik/rumah sakit. Projek ini disusun berdasarkan materi praktikum **Modul Mobile Programming (Pertemuan 2 – 5)**.
 
-📌 Fitur Utama
+---
 
-📋 Data Poli Menampilkan daftar poli (Poli Anak, Poli Kandungan, Poli Gigi, Poli THT) dalam bentuk list kartu interaktif.
-➕ Tambah Poli : Form input untuk menambahkan data poli baru.
-🔍 Detail Poli : Menampilkan informasi detail dari poli yang dipilih lengkap dengan aksi Ubah dan Hapus.
-✏️ Ubah Poli : Form untuk memperbarui / mengedit nama poli.
-🗑️ Hapus Poli : Dialog pop-up konfirmasi (YA / Tidak) sebelum data dihapus.
+## 📌 Fitur Utama
 
-📁 Struktur Direktori
+- 📋 **Data Poli**: Menampilkan daftar poli (*Poli Anak, Poli Kandungan, Poli Gigi, Poli THT*) dalam bentuk list kartu interaktif.
+- ➕ **Tambah Poli**: Form input untuk menambahkan data poli baru.
+- 🔍 **Detail Poli**: Menampilkan informasi detail dari poli yang dipilih lengkap dengan aksi Ubah dan Hapus.
+- ✏️ **Ubah Poli**: Form untuk memperbarui / mengedit nama poli.
+- 🗑️ **Hapus Poli**: Dialog pop-up konfirmasi (**YA** / **Tidak**) sebelum data dihapus.
 
+---
+
+## 📁 Struktur Direktori
+
+```text
 klinik_app/
 ├── lib/
 │   ├── model/
@@ -25,20 +30,29 @@ klinik_app/
 │   └── main.dart                   # Entry point aplikasi Flutter
 ├── pubspec.yaml                    # Konfigurasi dependensi project
 └── README.md                       # Dokumentasi project
+```
 
-🛠️ Teknologi & Tools
+---
 
-Framework: Flutter
-Bahasa Pemrograman: Dart
-Development Environment: FlutLab.io
+## 🛠️ Teknologi & Tools
 
-🚀 Cara Menjalankan Projek
+- **Framework**: Flutter
+- **Bahasa Pemrograman**: Dart
+- **Development Environment**: FlutLab.io
 
-Menggunakan FlutLab (Web):
-Buka dan import repository ini ke FlutLab.io.
-Klik tombol Build / Run (ikon Play) untuk menjalankan aplikasi.
+---
 
-Nama: M.Theodore Hepny Papareng
-NIM: 19230215
-Kelas: 19.7AF.07
-Mata Kuliah: Mobile Programming
+## 🚀 Cara Menjalankan Projek
+
+### Menggunakan FlutLab (Web):
+1. Buka dan import repository ini ke [FlutLab.io](https://flutlab.io).
+2. Klik tombol **Build / Run** (ikon Play) untuk menjalankan aplikasi.
+
+---
+
+## 👤 Identitas Mahasiswa
+
+- **Nama**: M.Theodore Hepny Papareng
+- **NIM**: 19230215
+- **Kelas**: 19.7AF.07
+- **Mata Kuliah**: Mobile Programming
