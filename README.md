@@ -49,10 +49,3 @@ klinik_app/
 2. Klik tombol **Build / Run** (ikon Play) untuk menjalankan aplikasi.
 
 ---
-
-## 👤 Identitas Mahasiswa
-
-- **Nama**: M.Theodore Hepny Papareng
-- **NIM**: 19230215
-- **Kelas**: 19.7AF.07
-- **Mata Kuliah**: Mobile Programming
