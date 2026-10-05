@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'ui/pegawai_page.dart'; // ganti ke 'ui/pasien_page.dart' jika ingin membuka data Pasien
+import 'ui/pegawai_page.dart'; // <--- panggil halaman pasien
 
 void main() => runApp(const MyApp());
 
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           foregroundColor: Colors.white,
         ),
       ),
-      home: const PegawaiPage(), // atau const PasienPage()
+      home: const PegawaiPage(), // <--- arahkan ke PasienPage()
     );
   }
 }
