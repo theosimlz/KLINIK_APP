@@ -50,6 +50,7 @@ class _PoliDetailState extends State<PoliDetail> {
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.green,
         foregroundColor: Colors.white,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
       ),
       child: const Text("Ubah"),
     );
@@ -61,7 +62,6 @@ class _PoliDetailState extends State<PoliDetail> {
         AlertDialog alertDialog = AlertDialog(
           content: const Text("Yakin ingin menghapus data ini?"),
           actions: [
-            // Tombol YA
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context);
@@ -73,10 +73,11 @@ class _PoliDetailState extends State<PoliDetail> {
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.red,
                 foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(4)),
               ),
               child: const Text("YA"),
             ),
-            // Tombol Tidak / Batal
             ElevatedButton(
               onPressed: () {
                 Navigator.pop(context);
@@ -84,6 +85,8 @@ class _PoliDetailState extends State<PoliDetail> {
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.green,
                 foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(4)),
               ),
               child: const Text("Tidak"),
             ),
@@ -94,6 +97,7 @@ class _PoliDetailState extends State<PoliDetail> {
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.red,
         foregroundColor: Colors.white,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
       ),
       child: const Text("Hapus"),
     );

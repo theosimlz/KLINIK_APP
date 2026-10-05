@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './ui/poli_page.dart';
+import 'ui/pegawai_page.dart'; // ganti ke 'ui/pasien_page.dart' jika ingin membuka data Pasien
 
 void main() => runApp(const MyApp());
 
@@ -14,10 +14,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.blue,
-          foregroundColor: Colors.white, // warna teks dan icon jadi putih
+          foregroundColor: Colors.white,
         ),
       ),
-      home: const PoliPage(),
+      home: const PegawaiPage(), // atau const PasienPage()
     );
   }
 }
